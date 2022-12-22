@@ -3,5 +3,5 @@
 
 Credenziali utente ruolo "redazione" 
 
-user : user_redazione_test
+user : user_redazione_test ,
 psw : gattogatto
