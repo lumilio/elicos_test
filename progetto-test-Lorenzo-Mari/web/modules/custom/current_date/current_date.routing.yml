@@ -1,0 +1,7 @@
+current_date.content:
+  path: '/hello-world' 
+  defaults: 
+    _controller: '\Drupal\current_date\Controller\HelloWorldController::content' 
+    _title: 'Hello World test page'
+  requirements: 
+    _permission: 'access content' 

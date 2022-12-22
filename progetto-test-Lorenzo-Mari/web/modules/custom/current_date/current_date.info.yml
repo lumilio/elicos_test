@@ -1,0 +1,7 @@
+name: current_date
+type: module
+description: current date displayer
+core_version_requirement: ^9 || ^10
+dependencies:
+ - drupal:block
+ - drupal:config

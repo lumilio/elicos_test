@@ -1,0 +1,12 @@
+{# current_date/templates/hello-world-template.html.twig #}
+<p>Test twig template!</p>
+ 
+<p>test_var: {{ test_var }}</p>
+
+
+
+<h3>Loop test</h3>
+{% set colors = ['red','blue','green','rainbow'] %}
+{% for color in colors %}
+    {{color}}
+{% endfor %}
