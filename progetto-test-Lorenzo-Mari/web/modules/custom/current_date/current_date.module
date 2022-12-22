@@ -9,5 +9,9 @@ function current_date_theme($existing, $type, $theme, $path) {
         'hello-world-template' => [
             'variables' => ['test_var' => 'test completato'],
         ],
+
+        'clock-template' => [
+            'variables' => ['test_var' => 'test completato'],
+        ],
     ];
 }

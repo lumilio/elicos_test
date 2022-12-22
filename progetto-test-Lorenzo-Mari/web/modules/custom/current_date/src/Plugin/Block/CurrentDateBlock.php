@@ -1,10 +1,7 @@
 <?php
 
 namespace Drupal\current_date\Plugin\Block;
-
-
 use Drupal\Core\Block\BlockBase;
-
 
 /**
 * Provides a block with a simple text.
@@ -21,9 +18,18 @@ class CurrentDateBlock extends BlockBase {
   * {@inheritdoc}
   */
  public function build() {
-   return [
-     '#markup' => date('m/d/Y') ,
-   ];
+    return [
+        '#theme' => 'clock-template',
+    ];
  }
-
 }
+
+?>
+
+
+
+
+
+
+
+
